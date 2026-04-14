@@ -73,7 +73,7 @@ python main.py
 2.  **Startup Cycle:** It immediately runs an initial job scraping cycle fetching from LinkedIn and Naukri.
 3.  **Filtration:** Filters jobs down matching the 0-1 yr exp criteria and deduplicates them using the database.
 4.  **Scheduler Backgrounding:** Sits in the background. It will scrape fresh jobs roughly every 23 hours. 
-5.  **Daily Report:** At the scheduled time (e.g., 07:12 PM IST), it passes the daily cached fresh jobs to your local Ollama model to rank the **top 9** opportunities, then blasts the result via the Telegram Bot. The cache is then cleared for the next cycle.
+5.  **Daily Report:** At the scheduled time (e.g., 06:00 PM IST), it passes the daily cached fresh jobs to your local Ollama model to rank the **top 9** opportunities, then blasts the result via the Telegram Bot. The cache is then cleared for the next cycle.
 
 ## 🧠 Adjusting the AI Ranking Prompt
 You can tweak how the LLM evaluates jobs by modifying the `prompt_template.txt` located in the `llm/` directory.
