@@ -1,4 +1,4 @@
-# AI Job Scraper & Ranker Pipeline
+<img width="160" height="106" alt="image" src="https://github.com/user-attachments/assets/24ac003f-40ec-4e2d-9c50-759e79413bb7" /># AI Job Scraper & Ranker Pipeline
 
 An end-to-end automated job scraping pipeline that fetches fresher-level AI/ML and Data Science jobs from LinkedIn and Naukri, filters them, ranks them using a local LLM (Ollama), and delivers a curated list of top roles straight to your Telegram daily.
 
